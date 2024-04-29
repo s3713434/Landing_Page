@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex {
+  display: flex
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.button-piramy {
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #190a32;
+  border-radius: 50px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 15px 35px;
+  transition: all 0.3s ease 0s;
+  /* height: 50px; */
+}
+
+.align-center {
+  align-items: center;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-gradient-purple {
+  background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+}
+
+.color-pink {
+  color: #ff3494;
+}
+
+.color-purple {
+  color: #7D4196;
+}
+
+.background-purple {
+  background-color: #7D4196;
+}
+
+.background-grey {
+  background-color: rgb(247, 244, 254);
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  margin: 34px 20px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.m-l-30 {
+  margin-left: 30px;
+}
+
+h1 {
+  color: #190a32;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(103, 111, 103);
+}
+
+.button-secondary {
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 15px 35px;
+  transition: all 0.3s ease 0s;
+  margin-top: 20px;
+  /* height: 50px; */
+}
+
+.header-background {
+  background: url(https://zcube.in/bingle/img/bg/pink-header-bg.png) no-repeat;
+  min-height: 900px;
+  background-size: 65%;
+  box-sizing: border-box;
+  background-position: right 0;
+
+}
+
+.sub-title {
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 30px;
+  box-sizing: border-box;
+}
+
+.background-border {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.feature-subtitle {
+  max-width: 700px;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro h2 {
+  width: 100%;
+  text-align: center;
+}
