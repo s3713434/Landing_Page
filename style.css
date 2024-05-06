@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .flex {
@@ -132,11 +133,14 @@ p {
   flex-direction: column;
 }
 
+.small-title {
+  padding: 0 1rem;
+}
+
 .feature-subtitle {
   max-width: 700px;
   font-weight: 400;
   font-size: 14px;
-
 }
 
 h2 {
@@ -150,7 +154,96 @@ h2 {
   justify-content: center;
 }
 
-.intro h2 {
+.intro-title {
   width: 100%;
   text-align: center;
+}
+
+.blog-title {
+  text-align: center !important;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.blog-title p {
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.date {
+  margin: 30px 20px;
+  background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  padding: 5px 20px;
+  box-shadow: 3px 4px 15px #D22D4A4D;
+  margin-bottom: 20px;
+  max-width: 125px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  max-width: 1300px;
+}
+
+.card {
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 4px 25px #0000001A;
+  margin-bottom: 30px;
+}
+
+.card-content {
+  margin: 30px 20px;
+}
+
+.card-content h3 {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.card-content p {
+  font-size: 14px;
+}
+
+.author-info {
+  margin: 30px 20px;
+}
+
+hr {
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.small-icon {
+  max-width: 45px;
+  margin: 0 20px;
+}
+
+.small-icon img {
+  width: 100%;
+  border-radius: 50%;
+  background: #D7D7D7 0% 0% no-repeat padding-box;
+  box-shadow: 3px 4px 12px #00000026;
+  border: 2px solid #FFFFFF;
 }
